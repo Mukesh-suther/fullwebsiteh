@@ -197,6 +197,10 @@ header .header_leftside{
     .thumbnail_area img{
         width: 100%;
     }
+    .thumbnail_area{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     .media_frame{
         color: #fff;
         height: 500px;
